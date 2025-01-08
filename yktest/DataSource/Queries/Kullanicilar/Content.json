@@ -1,0 +1,248 @@
+{
+  "content": {
+    "name": "Kullanicilar",
+    "connectionId": "2152b45a-ab1d-4556-a8ea-5ef384483e10",
+    "connectionName": {
+      "tr-TR": "Danismanlik"
+    },
+    "connectionType": 1,
+    "description": {
+      "tr-TR": "Aktif Kullanıcıları Getir"
+    },
+    "id": null,
+    "properties": {
+      "cacheTTL": 60000,
+      "cacheType": "Memory",
+      "enableCache": true,
+      "timeout": 60,
+      "commandText": "SELECT * FROM OSUSERS WHERE STATUS = 1",
+      "parameters": [],
+      "commandType": 1,
+      "executionType": 3
+    },
+    "structure": {
+      "columns": [
+        {
+          "name": "ID",
+          "type": 3,
+          "caption": "ID",
+          "columns": []
+        },
+        {
+          "name": "USERNAME",
+          "type": 1,
+          "caption": "USERNAME",
+          "columns": []
+        },
+        {
+          "name": "FIRSTNAME",
+          "type": 1,
+          "caption": "FIRSTNAME",
+          "columns": []
+        },
+        {
+          "name": "LASTNAME",
+          "type": 1,
+          "caption": "LASTNAME",
+          "columns": []
+        },
+        {
+          "name": "PASSWORD",
+          "type": 1,
+          "caption": "PASSWORD",
+          "columns": []
+        },
+        {
+          "name": "EMAIL",
+          "type": 1,
+          "caption": "EMAIL",
+          "columns": []
+        },
+        {
+          "name": "STATUS",
+          "type": 3,
+          "caption": "STATUS",
+          "columns": []
+        },
+        {
+          "name": "TYPE",
+          "type": 3,
+          "caption": "TYPE",
+          "columns": []
+        },
+        {
+          "name": "IMPORTSTATUS",
+          "type": 3,
+          "caption": "IMPORTSTATUS",
+          "columns": []
+        },
+        {
+          "name": "BIRTHDATE",
+          "type": 12,
+          "caption": "BIRTHDATE",
+          "columns": []
+        },
+        {
+          "name": "EMPLOYEMENTSTART",
+          "type": 12,
+          "caption": "EMPLOYEMENTSTART",
+          "columns": []
+        },
+        {
+          "name": "EMPLOYEMENTEND",
+          "type": 12,
+          "caption": "EMPLOYEMENTEND",
+          "columns": []
+        },
+        {
+          "name": "CATEGORY",
+          "type": 3,
+          "caption": "CATEGORY",
+          "columns": []
+        },
+        {
+          "name": "SEX",
+          "type": 3,
+          "caption": "SEX",
+          "columns": []
+        },
+        {
+          "name": "DEPARTMENT",
+          "type": 3,
+          "caption": "DEPARTMENT",
+          "columns": []
+        },
+        {
+          "name": "PROFESSION",
+          "type": 3,
+          "caption": "PROFESSION",
+          "columns": []
+        },
+        {
+          "name": "PHONE",
+          "type": 1,
+          "caption": "PHONE",
+          "columns": []
+        },
+        {
+          "name": "MOBILEPHONE",
+          "type": 1,
+          "caption": "MOBILEPHONE",
+          "columns": []
+        },
+        {
+          "name": "REGISTRATIONNUMBER",
+          "type": 1,
+          "caption": "REGISTRATIONNUMBER",
+          "columns": []
+        },
+        {
+          "name": "WAYOFWORK",
+          "type": 1,
+          "caption": "WAYOFWORK",
+          "columns": []
+        },
+        {
+          "name": "PLACEOFBIRTH",
+          "type": 1,
+          "caption": "PLACEOFBIRTH",
+          "columns": []
+        },
+        {
+          "name": "MARITALSTATUS",
+          "type": 1,
+          "caption": "MARITALSTATUS",
+          "columns": []
+        },
+        {
+          "name": "IDENTIFICATIONNUMBER",
+          "type": 1,
+          "caption": "IDENTIFICATIONNUMBER",
+          "columns": []
+        },
+        {
+          "name": "PERSONALEMAIL",
+          "type": 1,
+          "caption": "PERSONALEMAIL",
+          "columns": []
+        },
+        {
+          "name": "PERSONALPHONE",
+          "type": 1,
+          "caption": "PERSONALPHONE",
+          "columns": []
+        },
+        {
+          "name": "PERSONALMOBILEPHONE",
+          "type": 1,
+          "caption": "PERSONALMOBILEPHONE",
+          "columns": []
+        },
+        {
+          "name": "ADDRESS",
+          "type": 1,
+          "caption": "ADDRESS",
+          "columns": []
+        },
+        {
+          "name": "EDUCATIONALSTATUS",
+          "type": 1,
+          "caption": "EDUCATIONALSTATUS",
+          "columns": []
+        },
+        {
+          "name": "SHIFTID",
+          "type": 3,
+          "caption": "SHIFTID",
+          "columns": []
+        },
+        {
+          "name": "DEFAULTCULTURE",
+          "type": 1,
+          "caption": "DEFAULTCULTURE",
+          "columns": []
+        },
+        {
+          "name": "MFAENABLED",
+          "type": 2,
+          "caption": "MFAENABLED",
+          "columns": []
+        },
+        {
+          "name": "AUTHENTICATORENABLED",
+          "type": 2,
+          "caption": "AUTHENTICATORENABLED",
+          "columns": []
+        },
+        {
+          "name": "PHONECC",
+          "type": 1,
+          "caption": "PHONECC",
+          "columns": []
+        },
+        {
+          "name": "MOBILEPHONECC",
+          "type": 1,
+          "caption": "MOBILEPHONECC",
+          "columns": []
+        },
+        {
+          "name": "PERSONALPHONECC",
+          "type": 1,
+          "caption": "PERSONALPHONECC",
+          "columns": []
+        },
+        {
+          "name": "PERSONALMOBILEPHONECC",
+          "type": 1,
+          "caption": "PERSONALMOBILEPHONECC",
+          "columns": []
+        }
+      ],
+      "returnType": 10
+    }
+  },
+  "analyser": {
+    "selectStatement": {}
+  }
+}
